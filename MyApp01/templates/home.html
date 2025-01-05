@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+
+{% block title%}
+    Home
+{% endblock %}
+
+{% block content %}
+    {% load static %}
+    <h1>Home</h1>
+        <p>Check out my <a href="/about">About</a>page.</p>
+        <div class="imageContainer">
+            <p>Tigerkatze-Gesicht-Augen</p>
+            <img src="{% static 'images/Tigerkatze-Gesicht-Augen.jpg' %}" alt="Tigerkatze-Gesicht-Augen" width="400" height="300">
+        </div>
+{% endblock %}  
+
